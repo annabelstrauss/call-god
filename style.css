@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Anton;
+    font-weight: regular;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('clouds.png'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.title {
+    font-size: 10vw;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 2vw;s
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 8vw;
+    }
+}
