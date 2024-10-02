@@ -39,23 +39,22 @@ body, html {
     text-shadow: 4px 3px 12px rgba(80, 80, 80, 0.2);
 }
 
+.subtitle a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .subtitle a:hover,
+.subtitle a:focus {
+    text-decoration: underline;
+} */
+
 @media (max-width: 768px) {
     .title {
-        font-size: 60px;
+        font-size: 70px;
     }
     
     .subtitle {
         font-size: 20px;
     }
-}
-
-a[href^="tel:"] {
-    color: white;
-    text-decoration: none;
-}
-
-a[href^="tel:"]:hover,
-a[href^="tel:"]:focus {
-    color: white;
-    text-decoration: none;
 }
