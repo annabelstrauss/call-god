@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Anton;
+    font-family: 'Anton', sans-serif;
     font-weight: regular;
     color: white;
     text-align: center;
@@ -25,14 +27,24 @@ body, html {
 .title {
     font-size: 10vw;
     margin: 0;
+    min-font-size: 40px;
+    text-shadow: 4px 3px 12px rgba(80, 80, 80, 0.2);
 }
 
 .subtitle {
-    font-size: 2vw;s
+    font-size: 2vw;
+    margin: 0;
+    letter-spacing: 0.07em;
+    min-font-size: 16px;
+    text-shadow: 4px 3px 12px rgba(80, 80, 80, 0.2);
 }
 
 @media (max-width: 768px) {
     .title {
-        font-size: 8vw;
+        font-size: 60px;
+    }
+    
+    .subtitle {
+        font-size: 20px;
     }
 }
