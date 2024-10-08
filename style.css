@@ -27,7 +27,7 @@ body, html {
 .title {
     font-size: 10vw;
     margin: 0;
-    min-font-size: 40px;
+    line-height: 2;
     text-shadow: 4px 3px 12px rgba(80, 80, 80, 0.2);
 }
 
@@ -35,7 +35,6 @@ body, html {
     font-size: 2vw;
     margin: 0;
     letter-spacing: 0.07em;
-    min-font-size: 16px;
     text-shadow: 4px 3px 12px rgba(80, 80, 80, 0.2);
 }
 
@@ -44,17 +43,21 @@ body, html {
     text-decoration: none;
 }
 
-/* .subtitle a:hover,
-.subtitle a:focus {
-    text-decoration: underline;
-} */
-
 @media (max-width: 768px) {
     .title {
-        font-size: 70px;
+        font-size: 15vw;
+        line-height: 1.2;
     }
-    
+
+    .talk-to, .god {
+        display: block;
+    }
+
+    .god {
+        font-size: 25vw;
+    }
+
     .subtitle {
-        font-size: 20px;
+        font-size: 7vw;
     }
 }
